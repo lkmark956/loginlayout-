@@ -5,6 +5,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.card.MaterialCardView;
 
 public class HomeActivity extends AppCompatActivity {
@@ -14,10 +15,13 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        MaterialButton btnBack = findViewById(R.id.btnBack);
         MaterialCardView cardFiguras = findViewById(R.id.cardFiguras);
         MaterialCardView cardMangas  = findViewById(R.id.cardMangas);
         MaterialCardView cardPoster  = findViewById(R.id.cardPoster);
         MaterialCardView cardMerch   = findViewById(R.id.cardMerch);
+
+        btnBack.setOnClickListener(v -> finish());
 
         cardFiguras.setOnClickListener(v ->
                 Toast.makeText(this, "Figuras", Toast.LENGTH_SHORT).show());

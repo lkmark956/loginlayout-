@@ -12,6 +12,27 @@
         android:orientation="vertical"
         android:padding="24dp">
 
+        <!-- Barra superior con botón volver -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBack"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="← Volver"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                app:strokeColor="@color/black"
+                app:cornerRadius="12dp" />
+
+        </LinearLayout>
+
         <!-- Header -->
         <TextView
             android:layout_width="wrap_content"
