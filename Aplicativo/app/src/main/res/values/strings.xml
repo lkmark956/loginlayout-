@@ -6,4 +6,10 @@
     <string name="hint_password">Contraseña</string>
     <string name="btn_login">Inicio de sesión</string>
     <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="home_welcome">¡Bienvenido!</string>
+    <string name="home_subtitle">Explora nuestras categorías</string>
+    <string name="cat_figuras">Figuras</string>
+    <string name="cat_mangas">Mangas</string>
+    <string name="cat_poster">Poster</string>
+    <string name="cat_merch">Merch</string>
 </resources>
